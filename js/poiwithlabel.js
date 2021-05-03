@@ -71,4 +71,4 @@ var World = {
     AR.context.onLocationChanged to null. In this case the function will not be called anymore and no further
     location updates will be received.
 */
-AR.context.onLocationChanged = World.locationChanged;
+AR.context.onLocationChanged = null;
